@@ -13,6 +13,7 @@ public class Main {
 
 		boolean iskaz = areStringsIsomorpfic(a, b);
 		System.out.println(iskaz);
+		print();
 	}
 
 	public static boolean areStringsIsomorpfic(String a, String b) {
@@ -31,6 +32,9 @@ public class Main {
 		return true;
 	}
 	
-	
+	public static void print()
+	{
+		System.out.println("Mirini elitni odrediii :)");
+	}
 
 }
